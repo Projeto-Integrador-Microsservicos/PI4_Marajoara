@@ -7,7 +7,7 @@ body, h1, h2, p, ul, li {
 
 /* Estilos gerais */
 body {
-    background-image: url('images/imagem2.webp'); /* Caminho da imagem de fundo */
+    background-image: url(../imgs/figura1.jpg); /* Caminho da imagem de fundo */
     background-size: cover; /* Cobrir toda a tela */
     background-position: center; /* Centralizar a imagem */
     background-repeat: no-repeat; /* Não repetir a imagem */
