@@ -1,0 +1,23 @@
+* 
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+
+nav 
+{
+    background: #eed9c4;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+.nav_area_user
+{
+    margin-right: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
