@@ -21,3 +21,37 @@ nav
     align-items: center;
     justify-content: space-between;
 }
+
+.p_nav
+{
+  margin-right: 7px; 
+  color: black; 
+  font-size: 20px; 
+  font-weight: bold;
+}
+
+.img_nav_login
+{
+  height: 40px;
+}
+
+@media (min-width: 768px) and (max-width: 1366px) 
+{
+  .img_nav_login
+  {
+    height: 30px;
+  }
+
+  .img_logo
+  {
+    height: 150px;
+  }
+
+  .p_nav
+  {
+    margin-right: 7px; 
+    color: black; 
+    font-size: 20px; 
+    font-weight: bold;
+  }
+}
