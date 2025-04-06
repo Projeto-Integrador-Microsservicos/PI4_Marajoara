@@ -3,34 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Humburger Menu</title>
-    
-    <link rel="stylesheet" href="/pagina2/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="../Style/style_menuPrincipal_morador.css">
-    
+    <title>Menu Hamburguer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+    <link rel="stylesheet" href="../style/style_menuPrincipal_morador.css">
 </head>
 
 <body>
-        <nav>
-            <div class="logo"><img src="../imgs/img_logo.jpg"></div>
-            <div class="openMenu"><i class="fa fa-bars"></i></div>
-            <ul class="mainMenu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">About</a></li>
-                <div class="closeMenu"><i class="fa fa-times"></i></div>
-                <span class="icons">
-                    <i class="fab fa-facebook"></i>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-github"></i>
-                </span>
-            </ul>
-        </nav>
+    <nav>
+        <div class="logo"><img src="../imgs/img_logo.jpg"></div>
+        <div class="nav_area_user">
+            <p style="margin-right: 7px; color: black; font-size: 20px; font-weight: bold;">Olá, Fulano!</p>
+            <img src="../imgs/img_profile_icon.png" alt="" style="height: 40px;">
+        </div>
+    </nav>
 
+    <div class="main-container">
+        <div class="sidebar" id="sidebar">
+            <h2>Menu</h2>
+            <div class="menu-item">
+                <a href="#">Achados e Perdidos</a>
+            </div>
+            <div class="menu-item">
+                <a href="#">Eventos</a>
+            </div>
+            <div class="menu-item">
+                <a href="#">Aluguel de Salão</a>
+            </div>
+            <div class="menu-item">
+                <a href="#">Reclamações</a>
+            </div>
+        </div>
 
-    <script src="../Scripts/script_menu_hamburguer.js"></script>
+        <div class="content">
+            <!--conteúdo-->
+        </div>
+    </div>
+
+    <script src="../Scripts/script_menu_hamburger.js"></script>
 </body>
 </html>
