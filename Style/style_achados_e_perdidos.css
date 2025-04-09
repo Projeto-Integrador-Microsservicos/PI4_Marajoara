@@ -4,18 +4,76 @@
     margin: 0px;
     padding: 0px;
     list-style: none;
+    text-decoration: none;
 }
-
-img{
-    height: 4rem;
+header
+{
+    background-color: #eed9c4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-
+/*container more*/
+.container-menu-containers
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/*Lista*/
+.container
+{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    padding: 1.2rem  1.5rem 1.5rem 1.5rem;
+    border-radius: 1.5rem;
+    width: fit-content;
+}
+.items
+{
+    background-color: blueviolet;
+    padding: 1rem;
+    margin: 0.3215rem;
+    height: 30rem;
+    border-radius: 0.3rem;
+    /*botar o overflow la !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+}
 .item_box
 {
     display: flex;
     align-items: center;
+    background-color: #eed9c4;
+    padding: .1875rem;
+    transition-duration: 0.3s;
+}
+.items .item_box:hover
+{
+    background-color: aqua;
+}
+.img-item{
+    height: 4rem;
 }
 li
 {
     margin: 020px 50px 20px 20px;
+}
+/*Menu lateral*/
+.button-containter
+{
+    background-color: rgb(189, 156, 243);
+    padding: 50px;
+    width: fit-content;
+}
+.button-containter .btn:hover{
+    background-color: aquamarine;
+}
+.btn
+{
+    background-color: antiquewhite;
+    font-size: 1.5rem;
+    padding: 1.3rem;
+    margin: 5px 0px 5px 0px;
+    text-align: center;
+    transition: 0.3s;
 }
