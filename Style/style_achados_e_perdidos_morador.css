@@ -5,6 +5,7 @@
     padding: 0px;
     list-style: none;
     text-decoration: none;
+    
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 /*header*/
@@ -14,20 +15,22 @@ header
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    height: auto;
+    font-size: 2rem;
 }
 .img_logo
 {
-    height: 9rem;
+    height: 7rem;
 }
 .img_nav_login
 {
-    height: 60px;
+    height: 3.75rem;
 }
 .nav_area_user
 {
     display: flex;
     align-items: baseline;
+    padding-right: 0.6rem;
 }
 /*container more*/
 .container-menu-containers
@@ -39,23 +42,24 @@ header
 /*Lista*/
 .container
 {
-    background-color: aquamarine;
+    background-color: #eed9c4;
     display: flex;
     flex-direction: column;
     padding: 1.2rem  1.5rem 1.5rem 1.5rem;
     border-radius: 1.5rem;
     width: fit-content;
-    margin-top: 5rem;
+    margin-top: 2rem;
     font-size: 1.5rem;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.2);
 }
 .items
 {
-    background-color: blueviolet;
+    background-color: #FACF7D;
     padding: 1rem;
     margin: 0.3215rem;
-    height: 30rem;
+    height: 28rem;
     border-radius: 0.3rem;
-    /*botar o overflow la !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+    overflow-y: scroll;
 }
 .item_box
 {
@@ -68,31 +72,31 @@ header
 }
 .items .item_box:hover
 {
-    background-color: aqua;
+    background-color: #d384353d;
 }
 .img-item{
     height: 4rem;
 }
 li
 {
-    margin: 020px 50px 20px 20px;
+    margin: 1.25rem  3.125rem 1.25rem  1.25rem ; 
 }
 /*Menu lateral*/
 .button-containter
 {
-    background-color: rgb(189, 156, 243);
-    padding: 50px;
+    background-color: #EED9C4;
+    padding: 3.125rem;
     width: fit-content;
 }
 .button-containter .btn:hover{
-    background-color: aquamarine;
+    background-color:  #d57617b1;
 }
 .btn
 {
     background-color: antiquewhite;
     font-size: 1.5rem;
     padding: 1.3rem;
-    margin: 5px 0px 5px 0px;
+    margin: 0.3125rem 0px 0.3125rem 0px;
     text-align: center;
     transition: 0.3s;
 }
@@ -100,5 +104,4 @@ li
 {
     font-size: 2rem;
     margin-bottom: 0.3rem;
-    
 }
