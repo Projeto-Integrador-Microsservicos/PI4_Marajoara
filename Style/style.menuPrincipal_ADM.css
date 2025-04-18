@@ -3,7 +3,16 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    font-family: "Special Gothic Condensed One", sans-serif;
+    text-decoration: none;
   }
+
+:root
+{
+  --pessego: #eed9c4;
+  --chocolate: #7d3f00;
+  --cinza_claro: #c0c0c0;
+}
 
 nav 
 {
@@ -25,7 +34,7 @@ nav
 .p_nav
 {
   margin-right: 7px; 
-  color: black; 
+  color: var(--chocolate); 
   font-size: 20px; 
   font-weight: bold;
 }
@@ -35,21 +44,40 @@ nav
   height: 40px;
 }
 
-.seila
+.container_centralizacao
 {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+.container_divisao
+{
+  padding: 0.7rem;
+  margin: 0.5rem;
+}
+
 .div_opcao
 {
+  font-size: 20px;
+  color: var(--chocolate);
   width: 12rem;
   text-align: center;
-  padding: 0.7rem;
-  margin: 0.7rem;
-  background-color: chocolate;
+  background-color: var(--pessego);
+  border-radius: 10px;
+  box-shadow: 0 0 5px 1px var(--chocolate);
 }
+
+.p_opcoes
+{
+  padding: 0.8rem;
+}
+
+.container_menu_gerenciamento
+  {
+    width: fit-content;
+    margin: 250px auto 0;
+  }
 
 @media (min-width: 768px) and (max-width: 1366px) 
 {
